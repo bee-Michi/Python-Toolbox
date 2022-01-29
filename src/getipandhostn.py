@@ -2,7 +2,7 @@
 import socket
 
 def get_hostname_IP():
-    hostname = input("Please enter website address(URL):")
+    hostname = input("Please enter website URL: ")
     try:
         print (f'Hostname: {hostname}')
         print (f'IP: {socket.gethostbyname(hostname)}')
